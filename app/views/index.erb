@@ -1,0 +1,19 @@
+<article class="post">
+  <header>
+    <h1><%= @post.title %></h1>
+  </header>
+  <section class="post-body">
+    <%= @post.body %>
+  </section>
+</article>
+<section class="archive-links">
+  <header>
+    <h1>Archives</h1>
+  </header>
+  <ul>
+    <% @posts.each do |post| %>
+      <li><a href="#>"</a><%=post.title %> </li>
+    <% end %>
+  </ul>
+</section>
+<a class="create-blog" href="/posts/new">Create a New Post!</a>

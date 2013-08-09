@@ -1,0 +1,25 @@
+.container {
+  margin: 20px auto;
+  width: 960px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  overflow: hidden;
+}
+th {
+  text-align: left;
+}
+
+.container .post {
+  float: left;
+  width: 75%;
+}
+
+.container .archive-links {
+  float: left;
+  width: 20%;
+}
+
+.container .create-blog {
+  display: block;
+  clear: both;
+}
